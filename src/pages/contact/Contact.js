@@ -22,10 +22,14 @@ const Contact = () => {
                 </a>
             </div>
             <p className="sm:mb-0 text-white">
-                <span>Suivez-nous</span>
-                <i className="bx bxl-facebook-square"></i>
-                <i className="bx bxl-instagram"></i>
-                <i className="bx bxl-twitter"></i>
+                <span>Suivez-nous et contactez-nous sur: </span>
+                <a href="https://www.facebook.com/profile.php?id=100087431025887">
+                    <i className="bx bxl-facebook-square"></i>
+                </a>
+                <a href="https://instagram.com/lo_gouter?igshid=NzZhOTFlYzFmZQ==">
+                    <i className="bx bxl-instagram"></i>
+                </a>
+                <a href="https://wa.me/c/24176406405"><i className="bx bxl-whatsapp"></i></a> 
             </p>
         </div>
     );

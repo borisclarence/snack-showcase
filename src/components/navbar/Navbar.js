@@ -35,9 +35,13 @@ const Navbar = () => {
                 ))}
             </ul>
             <div>
-                <i className="bx bxl-facebook-square"></i>
-                <i className="bx bxl-instagram"></i>
-                <i className="bx bxl-twitter"></i>
+                <a href="https://www.facebook.com/profile.php?id=100087431025887">
+                    <i className="bx bxl-facebook-square"></i>
+                </a>
+                <a href="https://instagram.com/lo_gouter?igshid=NzZhOTFlYzFmZQ==">
+                    <i className="bx bxl-instagram"></i>
+                </a>
+                <a href="https://wa.me/c/24176406405"><i className="bx bxl-whatsapp"></i></a>  
             </div>
             
         </header>

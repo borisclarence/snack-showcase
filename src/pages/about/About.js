@@ -5,8 +5,8 @@ export default function About() {
   return (
     <div className="bg-secondary py-24 sm:py-32" id="about">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className="text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Des Achats Simplifiés
+        <h2 className="text-3xl text-center font-bold tracking-tight text-white sm:text-4xl">
+          Des achats simplifiés
         </h2>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
           <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
@@ -14,11 +14,13 @@ export default function About() {
           </div>
           
           <div className="p-8 flex flex-col justify-between items-center sm:p-10 lg:flex-auto">
-            <p className="mt-6 px-6 text-2xl leading-7 text-white">
+
+            <p class="mb-3 font-normal text-white dark:text-gray-400">
               Chez Logouter, il n'est pas nécessaire de se presser.
               Installez-vous confortablement, détendez-vous et faites des achats 
               comme bon vous semble.
             </p>
+
 
             <a href="#" class="w-full sm:w-auto bg-global mb-20 p-4 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:hover:bg-gray-400 dark:focus:ring-gray-400">
               <div class="text-left rtl:text-right">
