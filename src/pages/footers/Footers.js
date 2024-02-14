@@ -1,5 +1,5 @@
 // import '../../assets/css/Footers.css';
-import logouter from "../../assets/img/Logouter-logo.png";
+import logouterofficial from "../../assets/img/logo-logouter-officiel.jpeg";
 
 const Footers = () => {
     return (
@@ -7,7 +7,7 @@ const Footers = () => {
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div className="sm:flex sm:items-center sm:justify-between">
                 <a href="#" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                  <img src={logouter} className="h-10 w-10 rounded" alt="Logouter Logo" />
+                  <img src={logouterofficial} className="h-10 w-10 rounded" alt="Logouter Logo" />
                   <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Logouter</span>
                 </a>
                 

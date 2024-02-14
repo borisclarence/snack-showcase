@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import logouter from "../../assets/img/Logouter-logo.png";
+import logouterofficial from "../../assets/img/logo-logouter-officiel.jpeg";
 
 const navigation = [
-  { name: 'Accueil', href: '#home' },
-  { name: 'A Propos', href: '#about' },
-  { name: 'Professionnel', href: '#services' },
-  { name: 'Contact', href: '#contact' },
+  { name: 'Accueil', href: '/' },
+  { name: 'A Propos', href: '/about' },
+  { name: 'Professionnel', href: '/services' },
+  { name: 'Contact', href: '/contact' },
 ];
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
               <span className="sr-only">Logouter</span>
               <img
                 className="h-10 w-10 w-auto rounded logo-img"
-                src={logouter}
+                src={logouterofficial}
                 alt=""
               />
             </a>
@@ -28,7 +28,7 @@ const Navbar = () => {
             <ul className="navbar">
                 {navigation.map((item) => (
                 <li>
-                    <a key={item.name} href={item.href}>
+                    <a key={item.name} href={item.href} className='hover:underline hover:text-violet-600'>
                         {item.name}
                     </a>
                 </li>

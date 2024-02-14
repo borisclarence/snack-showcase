@@ -15,9 +15,9 @@ const Contact = () => {
                 <a href="#" class="w-full sm:w-auto bg-secondary hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:hover:bg-gray-400 dark:focus:ring-gray-400">
                     <i className="bx bxl-play-store"></i>
                     <div class="text-left rtl:text-right">
-                        <div class="-mt-1 font-sans text-sm font-semibold">
+                        <a href="https://play.google.com/store/apps?hl=fr&gl=US" class="-mt-1 font-sans text-sm font-semibold">
                             Téléchargez maintenant
-                        </div>
+                        </a>
                     </div>
                 </a>
             </div>
